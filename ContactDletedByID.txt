@@ -1,0 +1,7 @@
+CREATE PROC ContactDletedByID
+@ContactID int
+AS
+BEGIN
+DELETE FROM Contact
+WHERE ContactID = @ContactID
+END
